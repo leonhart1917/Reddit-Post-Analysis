@@ -9,12 +9,13 @@ The results are merged into a clean, structured dataset for further analysis.
 
 ### 1. Prerequisites
 - Python **3.8+**
+- Or Google Colab
 - Reddit API credentials (you can generate them at [https://www.reddit.com/prefs/apps]
 
 ### 2. Installation
 Install all required dependencies:
 ```bash
-pip install -r requirements.txt
+#pip install -r requirements.txt
 
 ### 3. Configuration
 Create a file named **`reddit.env`** in the same directory as your Python script.  
@@ -34,7 +35,7 @@ To run the data collection script, open your terminal or IDE and execute:
 
 ```bash
 python reddit_api.py
-
+Or run file Reddit_API.ipynb on Google Colab
 ### 5After running the script, a CSV file named **`reddit_data.csv`** will be created in your working directory.  
 This file contains all collected Reddit posts — both *hot* posts and *keyword-search* posts — merged into one clean, structured dataset.
 
