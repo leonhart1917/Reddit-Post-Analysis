@@ -15,7 +15,8 @@ The results are merged into a clean, structured dataset for further analysis.
 ### 2. Installation
 Install all required dependencies:
 ```bash
-#pip install -r requirements.txt
+pip install -r requirements.txt
+```
 
 ### 3. Configuration
 Create a file named **`reddit.env`** in the same directory as your Python script.  
