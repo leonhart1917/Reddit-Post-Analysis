@@ -35,9 +35,9 @@ Example `reddit.env` file:
 To run the data collection script, open your terminal or IDE and execute:
 
 ```bash
-python reddit_api.py
+python reddit_code.py
 ```
-Or run file Reddit_API.ipynb on Google Colab
+Or run file Reddit_Code.ipynb on Google Colab
 
 ### 5 After running the script, a CSV file named **`reddit_data.csv`** will be created in your working directory.  
 This file contains all collected Reddit posts — both *hot* posts and *keyword-search* posts — merged into one clean, structured dataset.
